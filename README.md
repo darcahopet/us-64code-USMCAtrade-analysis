@@ -4,7 +4,9 @@ Analysis of U.S. 2025 footwear imports from a few different countries, looking f
 **Tools:** Google BigQuery (SQL) · Looker Studio (dashboard)
 **Data source:** USITC DataWeb — U.S. Imports for Consumption, HTS Chapter 64 (footwear), year 2025, trading partners: Canada, China, Colombia, Mexico.
 
-📊 **Live dashboard:** _https://datastudio.google.com/reporting/6073bc7b-fa4b-4934-acd1-28ac5ac42153_
+📊 **Live dashboard:** _https://datastudio.google.com/reporting/6073bc7b-fa4b-4934-acd1-28ac5ac42153
+
+💻**Whole query:**  https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1smi-proyecto-data-987!2sus-central1!3sdf38012c-a7b4-473f-bd4b-c6a1da05979c!2e1
 
 ---
 
@@ -53,7 +55,6 @@ FROM `project.trade.master`
 GROUP BY country
 ORDER BY usmca_savings_opportunity DESC;
 ```
-💻**Whole query:** https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1smi-proyecto-data-987!2sus-central1!3sdf38012c-a7b4-473f-bd4b-c6a1da05979c!2e1
 
 ## Findings
 
