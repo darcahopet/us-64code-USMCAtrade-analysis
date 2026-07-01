@@ -1,4 +1,6 @@
 # US Footwear USMCA trade analysis
+**Superseded by US-Footwear — expanded to 130+ countries and all U.S. FTA partners.**
+
 Analysis of U.S. 2025 footwear imports from a few different countries, looking for where there are opportunities to save through free trade agreements (FTAs) — especially with countries that are part of USMCA. 
 
 **Tools:** Google BigQuery (SQL) · Looker Studio (dashboard)
